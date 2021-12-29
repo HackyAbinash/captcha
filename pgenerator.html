@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>pasword generator</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body onload="generate()">
+<h2 id="status" >captcha generator</h2>
+<div>
+  <input type="text" id="generate-captcha">
+</div>
+
+<div>
+<input type="text" id="entered-captcha" placeholder="Enter the captcha..."/>
+</div>
+  
+  <button type="button" onclick="check()">check</button>
+  <button type="button" onclick="generate()" id="gen">Generate New</button>
+
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

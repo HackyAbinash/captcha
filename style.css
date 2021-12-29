@@ -1,0 +1,96 @@
+body{
+ display:flex;
+ min-height:100vh;
+ 
+ justify-content:center;
+ align-items:center;
+ padding:0;
+margin:0;
+flex-direction:column;	
+background:red;
+}
+
+
+div{
+	
+	margin-bottom:10px;
+	
+}
+
+button{
+	
+	margin-bottom:5px;
+	cursor:pointer;
+	
+}	
+
+input{
+	text-decoration:none;
+}
+
+#generate-captcha{
+	text-decoration:line-through;
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+	border-radius:6px;
+	border:none;
+	padding:6px;
+	outline:none;
+	color:black;
+	
+	
+	
+	
+}
+
+#entered-captcha{
+	border:2px solid black;
+	outline:none;
+	border-radius:6px;
+	padding:8px 15px;
+	font-size:12px;
+	
+	
+}
+
+@media screen and (max-width:300px){
+	 body{
+		 background:pink;
+		 display:flex;
+		 flex-direction:column;
+		 font-size:5em;
+		
+	 }
+	 
+	 #generate-captcha{
+	text-decoration:line-through;
+	font-weight:bold;
+	text-align:center;
+	font-size:80px;
+	border-radius:6px;
+	border:none;
+	padding:10px;
+	outline:none;
+	color:red;
+	
+	 }
+	 
+	 #entered-captcha{
+	border:2px solid black;
+	outline:none;
+	border-radius:6px;
+	padding:8px 15px;
+	font-size:62px;
+	
+	
+}
+
+  button{
+	  
+	  font-size:67px;
+  }
+	
+	
+}
+	
